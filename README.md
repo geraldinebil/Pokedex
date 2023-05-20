@@ -7,7 +7,7 @@ Le POKEDEX est un dictionnaire avec tout les Pokemons donnant leurs évolutions 
 
 - 🪧 [À propos](#à-propos)
 - 📦 [Prérequis](#prérequis)
-- 🚀 [Installation](#installation)
+- 🚀 [Tableau] (#tableau)
 - 🛠️ [Utilisation](#utilisation)
 - 🤝 [Contribution](#contribution)
 - 🏗️ [Construit avec](#construit-avec)
@@ -16,6 +16,8 @@ Le POKEDEX est un dictionnaire avec tout les Pokemons donnant leurs évolutions 
 - 📝 [Licence](#licence)
 
 ## Prérequis
-file:///C:/Users/geral/Downloads/Like_Pokedex%20(1).pdf
+
+Liste des fonctionnalités requises à la création du POKEDEX (voir documentation)
+
 
 
