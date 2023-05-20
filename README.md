@@ -35,15 +35,17 @@ Un wireframing en desktop est résponsive a été créer pour construire le desi
 
 ## Documentation
 
-Lien vers la liste de prérequis du Pokedex: 
-[POKEDEX] (
+Liste de prérequis du Pokedex: 
+![1c3972e4-ee73-4183-aede-f60a36cc1dd3_1](https://github.com/geraldinebil/Pokedex/assets/113667275/d20c6d21-3e46-48b0-a9fe-cc8050e728e0)
+
 
 Lien vers trello:
 https://trello.com/b/LZVuZKxD/pokedex
 
-Lien vers le wireframing:
+Wireframing:
 
 ![0abaf053-4b36-480c-ad1a-7c9c508121e4_1](https://github.com/geraldinebil/Pokedex/assets/113667275/61f801e3-44f9-4918-8dda-b37ab2a3f4da)
+
 
 
 
