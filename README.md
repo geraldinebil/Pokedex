@@ -3,7 +3,7 @@
 
 Le POKEDEX est un dictionnaire avec tout les Pokemons donnant leurs évolutions et statistiques de combat (attaque, défense, vitessse....)
 
-## Tabl des matières
+## Table des matières
 
 - 🪧 [À propos](#à-propos)
 - 📦 [Prérequis](#prérequis)
@@ -20,13 +20,13 @@ Liste des fonctionnalités requises à la création du POKEDEX (voir documentati
 
 Création d'un trello permettant de cibler les tâches à effectuer avec notation d'étiquettes selon la dfificulté rencontrer
 
-## Cronstruit avec
+## Construit avec
 
 Pour construire ce POKEDEX trois langages de programmation ont été utilisés:
 - le HTML
 -  le CSS
 -  le Javascript
-De plus une API Pokeapi a été utilisé pour la récupération des Pokemons (voir documentation)
+De plus une API Pokeapi a été utilisé pour la récupération des Pokemons
 
 
 ## Schéma
