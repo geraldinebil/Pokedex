@@ -42,8 +42,8 @@ Lien vers trello:
 https://trello.com/b/LZVuZKxD/pokedex
 
 Lien vers le wireframing:
-tinyurl.com/3rn45erh
-
+[tinyurl.com/3rn45erh
+](https://tinyurl.com/3rn45erh)
 
 
 
