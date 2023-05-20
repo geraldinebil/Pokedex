@@ -18,7 +18,7 @@ Liste des fonctionnalités requises à la création du POKEDEX (voir documentati
 
 ## Tableau
 
-Création d'eun trello permettant de cibler les tâches à effectuer avec notation d'étiquettes selon la dfificulté rencontrer
+Création d'un trello permettant de cibler les tâches à effectuer avec notation d'étiquettes selon la dfificulté rencontrer
 
 ## Cronstruit avec
 
@@ -42,7 +42,8 @@ Lien vers trello:
 https://trello.com/b/LZVuZKxD/pokedex
 
 Lien vers le wireframing:
-[Pokedex] (file:///C:/Users/geral/Downloads/Pokedex%20(1).pdf)
+tinyurl.com/3rn45erh
+
 
 
 
