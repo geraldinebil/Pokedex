@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,15 +10,20 @@
     </head>
     <body>
         <h1>POKEDEX</h1>
-        <div id="search-div">
-            <input type="text" name="searchBar" aria-label="pokemon search bar" id="search-bar" placeholder="Enter pokemon..." />
-            <button type="button" id="submit-btn"><a id="searchClick" href="#">Chercher</a></button>
-        </div>
+        <main>
+          <div id="search-div">
+            <input type="text" name="searchBar" aria-label="pokemon search bar" id="search-bar" placeholder="Entrer pokemon..." />
+            <button type="button" id="submit-btn"><a id="searchClick" href="#">&#x1F50E;</a></button>
+        </div>  
+        </main>
+        
+        <input type="text" id="searchInput" placeholder="Chercher par type....">
+        <ul id="itemList">
+          </ul>
         <div class="container">
             <ul id="pokedex"></ul>
         </div>
-        
-        
+       
         <script src="Pokedex.js"></script>
     </body>
 </html>
