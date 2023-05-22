@@ -52,8 +52,8 @@ const selectPokemon = async id => {
     <small>Weight:</small> ${pokeman.weight}|
     <small>Type:</small> ${type}
     </div> 
-    </div> `
-    ;
+    </div> 
+    `;
     pokedex.innerHTML = htmlString + pokedex.innerHTML;
     console.log (htmlString);
   };
@@ -65,11 +65,5 @@ const selectPokemon = async id => {
 
 fetchPokemon();
 
-searchInput.addEventListener ('input', function (e) {
-    const pokeman = document.querySelector(".pokeman"). toLowerCase ();
-    
-    const search = searchInput.value.toLowerCase();
-    
-});
-
-
+const container = document.querySelector ("container");
+const searchInput
