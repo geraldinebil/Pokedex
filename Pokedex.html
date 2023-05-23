@@ -11,11 +11,15 @@
     <body>
         <h1>POKEDEX</h1>
         <main>
-          <div id="search-div">
+          <div class="search-div">
             <input type="text" name="searchBar" aria-label="pokemon search bar" id="search-bar" placeholder="Entrer pokemon..." />
             <button type="button" id="submit-btn"><a id="searchClick" href="#">chercher</a></button>
+            <div class="image_container">
+                <img src="https://pokeapi.co/api/v2/pokemon?limit=150" alt="">
+            </div>g
         </div>  
         </main>
+       
         
         <input type="text" id="searchInput" placeholder="Chercher par type....">
         <ul id="itemList">

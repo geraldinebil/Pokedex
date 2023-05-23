@@ -1,5 +1,6 @@
 const pokedex = document.getElementById('pokedex');
-
+const searchBtn = document.getElementById('search-btn');
+const inputField = document.getElementById('name-input');
 
 const fetchPokemon = async () => {
     const url = `https://pokeapi.co/api/v2/pokemon?limit=150`;
@@ -63,7 +64,7 @@ const selectPokemon = async id => {
     popup.parentElement.removeChild (popup);
   }
 
+
+  
 fetchPokemon();
 
-const container = document.querySelector ("container");
-const searchInput
