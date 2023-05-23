@@ -44,7 +44,7 @@ https://trello.com/b/LZVuZKxD/pokedex
 
 Wireframing:
 
-![0abaf053-4b36-480c-ad1a-7c9c508121e4_1](https://github.com/geraldinebil/Pokedex/assets/113667275/61f801e3-44f9-4918-8dda-b37ab2a3f4da)
+![601ba3e9-99c9-4fd4-a6d5-d11a8ae0c8b7_1](https://github.com/geraldinebil/Pokedex/assets/113667275/18be5454-5c3d-4e17-af0b-cff7b8be4fc1)
 
 
 
