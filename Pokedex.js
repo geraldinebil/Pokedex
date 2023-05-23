@@ -1,9 +1,9 @@
+
 const pokedex = document.getElementById('pokedex');
-const searchBtn = document.getElementById('search-btn');
-const inputField = document.getElementById('name-input');
+
 
 const fetchPokemon = async () => {
-    const url = `https://pokeapi.co/api/v2/pokemon?limit=150`;
+    const url = `https://pokeapi.co/api/v2/pokemon?limit=1008`;
     const res = await fetch(url);
     const data = await res.json();
     const pokemon = data.results.map((result, index) => ({
@@ -65,6 +65,5 @@ const selectPokemon = async id => {
   }
 
 
-  
 fetchPokemon();
 
