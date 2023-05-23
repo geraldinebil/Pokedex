@@ -6,17 +6,22 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>POKEDEX</title>
         <link rel="stylesheet" href="Pokedex.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Homemade+Apple&family=Rubik+Vinyl&display=swap" rel="stylesheet">
     </head>
     <body>
+
         <h1>POKEDEX</h1>
         <main>
+            
           <div class="search-div">
             <input type="text" name="searchBar" aria-label="pokemon search bar" id="search-bar" placeholder="Entrer pokemon..." />
             <button type="button" id="submit-btn"><a id="searchClick" href="#">chercher</a></button>
             <div class="image_container">
-                <img src="https://pokeapi.co/api/v2/pokemon?limit=150" alt="">
-            </div>g
+                <img src="" alt="">
+            </div>
         </div>  
         </main>
        
@@ -26,6 +31,7 @@
           </ul>
         <div class="container">
             <ul id="pokedex"></ul>
+            <img id="imgPoke">
         </div>
        
         <script src="Pokedex.js"></script>
