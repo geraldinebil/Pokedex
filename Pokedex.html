@@ -1,39 +1,65 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>POKEDEX</title>
-        <link rel="stylesheet" href="Pokedex.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Homemade+Apple&family=Rubik+Vinyl&display=swap" rel="stylesheet">
-    </head>
-    <body>
 
-        <h1>POKEDEX</h1>
-        <main>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>POKEDEX</title>
+    <link rel="stylesheet" href="Pokedex.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Homemade+Apple&family=Rubik+Vinyl&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>POKEDEX</h1>
+    <main>
+
+        <div class="searchdiv">
+            <input type="text" name="searchBar" aria-label="pokemon search bar" id="search-bar"
+                placeholder="Entrer pokemon..." />
+                
+            <button type="button" id="submit-btn"><a id="searchClick" href="#">Chercher</a></button>
+             <div id="pokemonDetails"></div>
             
-          <div class="search-div">
-            <input type="text" name="searchBar" aria-label="pokemon search bar" id="search-bar" placeholder="Entrer pokemon..." />
-            <button type="button" id="submit-btn"><a id="searchClick" href="#">chercher</a></button>
-            <div class="image_container">
-                <img src="" alt="">
-            </div>
-        </div>  
-        </main>
-       
-        
-        <input type="text" id="searchInput" placeholder="Chercher par type....">
-        <ul id="itemList">
-          </ul>
-        <div class="container">
-            <ul id="pokedex"></ul>
-            <img id="imgPoke">
         </div>
-       
-        <script src="Pokedex.js"></script>
-    </body>
+    </main>
+
+    <select id="typeFilter">
+        <option value="all">Tous les types</option>
+        <option value="Normal">Normal</option>
+        <option value="Fighting">Fighting</option>
+        <option value="Flying">Flying</option>
+        <option value="Poison">Poison</option>
+        <option value="Ground">Ground</option>
+        <option value="Rock">Rock</option>
+        <option value="Bug">Bug</option>
+        <option value="Ghost">Ghost</option>
+        <option value="Steel">Steel</option>
+        <option value="Fire">Fire</option>
+        <option value="water">Water</option>
+        <option value="Grass">Grass</option>
+        <option value="Electric">Electric</option>
+        <option value="Psychic">Psychic</option>
+        <option value="Ice">Ice</option>
+        <option value="Dragon">Dragon</option>
+        <option value="Dark">Dark</option>
+        <option value="Fairy">Fairy</option>
+      </select>
+
+      <div id="pokemon-list"></div>
+
+    <div class="container">
+        <ul id="pokedex"></ul>
+        <img id="imgPoke">
+    </div>
+
+    <script src="Pokedex.js"></script>
+</body>
+
 </html>
