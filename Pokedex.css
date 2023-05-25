@@ -7,6 +7,10 @@ body {
     font-family: 'Rubik Puddles', cursive;
 }
 
+#myChart{
+  width: 50px;
+}
+
 .container {
     padding: 40px;
     margin: 0 auto;
