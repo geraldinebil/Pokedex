@@ -125,6 +125,25 @@ function displayPokemonDetails(pokemon) {
   `;
 }
 
+function storeRegistrationData(){
+  var name = document.getElementById("name").value
+  var age = document.getElementById("age").value
+  var email = document.getElementById("email").value
+
+  var RegistrationData = {
+    name: name,
+    age: age,
+    email: email
+  }
+  var jsonData = json.string(RegistrationData)
+  document.cookie = "dresseurData=" + jsonData + "; expires=" + new Date(new Date().getTime() + 365 * 24 * 60 * 60 * 1000).toUTCString() + "; path=/";
+  
+  document.getElementById("registration-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+    storeRegistrationData();
+    alert("Données d'inscription stockées dans un cookie !");
+  });
+}
 // var adresses = [
 //   {
 //     url: "https://www.example.com",
