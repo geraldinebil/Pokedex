@@ -1,6 +1,6 @@
 body {
-  background: #ffd4f6;
-  color: rgb(255, 185, 240);
+  background: #f5f7e9;
+  color: #f5f7e9;
   margin: 0;
   font-family: 'Rubik Puddles', cursive;
 }
@@ -12,28 +12,54 @@ body {
 }
 
 #formulaire {
-  margin-left: 250px;
+  margin-left: 790px;
   margin-top: 60px;
 }
 
 #name {
   width: 300px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 4px;
+}
+
+.nom{
+  color: #ff0000;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.age{
+  color: #ff0000;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.email{
+  color: #ff0000;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.inscription{
+ margin-top: 25px;
+ margin-left: 120px;
 }
 
 #age {
   width: 300px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 4px;
 }
 
 #email {
   width: 300px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 4px;
 }
 
@@ -49,6 +75,23 @@ h1 {
   font-family: 'Rubik Vinyl', cursive;
   color: #fa0000;
 
+}
+
+h3{
+  font-family: cursive;
+  color: #fa0000;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+h4{
+  font-family: cursive;
+  color: #fa0000;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 50px;
 }
 
 #pokedex {
@@ -93,7 +136,7 @@ h1 {
 }
 
 .card-image {
-  width: 300px;
+  width: 200px;
 }
 
 #search-bar {
@@ -114,7 +157,7 @@ h1 {
   font-weight: bolder;
   border-radius: 4px;
   text-align: center;
-  background: #ffd4f6;
+  background: #f5f7e9;
 }
 
 #typeFilter {
@@ -143,11 +186,10 @@ main #searchdiv {
   left: 0;
   height: 100vh;
   width: 100vw;
-  background: #ffd4f6;
-  opacity: 0.95;
+  background: #f5f7e9;
   display: flex;
-  justify-content: center;
   align-items: center;
+  padding-left: 250px;
 }
 
 #closeBtn {
@@ -156,8 +198,8 @@ main #searchdiv {
   right: 20px;
   background: #b6b6b6;
   padding: 10px 30px;
-  margin-right: 880px;
-  margin-top: 120px;
+ margin-right: 1590px;
+  margin-top: 230px;
   border: none;
   color: rgb(255, 0, 0);
   border-radius: 5px;

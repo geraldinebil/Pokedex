@@ -1,14 +1,7 @@
 const pokedex = document.getElementById('pokedex');
 const pokemonData = [];
+const pokemonChart = []
 
-// let point_de_vie;
-// let attaque ;
-// let defense; 
-// let special_attaque;
-// let special_defense; 
-// let vitesse; 
-// let precision; 
-// let evasion; 
 
 const fetchPokemon = async () => {
     const url = `https://pokeapi.co/api/v2/pokemon?limit=1010`;
@@ -44,6 +37,10 @@ const displayPokemon = (pokemon) => {
       pokedex.append(li)
     });
 };
+
+
+
+
 
 const selectPokemon = async id => {
     const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
@@ -135,7 +132,7 @@ function storeRegistrationData(){
     age: age,
     email: email
   }
-  var jsonData = json.string(RegistrationData)
+  var jsonData = JSON.stringify(RegistrationData)
   document.cookie = "dresseurData=" + jsonData + "; expires=" + new Date(new Date().getTime() + 365 * 24 * 60 * 60 * 1000).toUTCString() + "; path=/";
   
   document.getElementById("registration-form").addEventListener("submit", function(event) {
@@ -144,6 +141,9 @@ function storeRegistrationData(){
     alert("Données d'inscription stockées dans un cookie !");
   });
 }
+
+
+
 // var adresses = [
 //   {
 //     url: "https://www.example.com",
